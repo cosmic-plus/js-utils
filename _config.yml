@@ -1,0 +1,9 @@
+name: "utils"
+url: "https://cosmic.plus/#view:js-utils"
+
+include: AUTHORS.md, CONTRIBUTING.md, LICENSE.md
+
+titles_from_heading:
+  enabled:     true
+  strip_title: true
+
