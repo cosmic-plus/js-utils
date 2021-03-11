@@ -39,7 +39,7 @@ function precisionAuto (value, opts) {
   if (opts.significant == null) opts.significant = 4
   let precision = 0
 
-  const str = String(value)
+  const str = String(Math.abs(value))
   const firstNonZero = str.search(/[^0.]/)
   if (firstNonZero) {
     precision = firstNonZero + opts.significant - 2
