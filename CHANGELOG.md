@@ -19,6 +19,17 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 backward-compatibility and can be updated to without risk of breakage. For major
 releases, please check this changelog before upgrading.
 
+## 1.1.0 - 2021-09-15
+
+### Changed
+
+- Meta: Drop support for unsafe browsers.
+- Meta: Update dependencies.
+
+### Fixed
+
+- Logic: Fix `nice` handling of negative numbers.
+
 ## 1.0.0 - 2020-06-14
 
 Initial release.
